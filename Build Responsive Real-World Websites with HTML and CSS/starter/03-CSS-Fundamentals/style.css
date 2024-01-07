@@ -33,6 +33,7 @@ body {
 
 nav {
     font-size: 18px;
+    text-align: center;
 }
 
 article {
@@ -183,6 +184,8 @@ nav a:link {
     margin-right: 30px;
     margin-top: 10px;
     display: inline-block;
+
+    
 }
 
 nav a:link:last-child {
@@ -236,9 +239,9 @@ h1::first-letter {
     margin-right: 5px;
 } */
 
-h3+p::first-line {
-    /* color: red; */
-}
+/* h3 + p::first-line {
+    color: red;
+} */
 
 h2 {
     /* background-color: orange; */
@@ -256,6 +259,4 @@ h2::after {
     position: absolute;
     top: -15px;
     right: -28px;
-
-
 }
