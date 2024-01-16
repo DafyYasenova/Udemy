@@ -343,16 +343,23 @@
 }
 
 .testimonial-text {
-font-size: 1.8rem;
-line-height: 1.8;
-margin-bottom: 1.6rem;
-
-
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
 }
 
 .testimonial-name {
-
     font-size: 1.6rem;
     color: #777;
-    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
 }
