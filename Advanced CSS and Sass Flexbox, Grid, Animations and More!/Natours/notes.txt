@@ -1,0 +1,8 @@
+In Natours directory:
+npm init
+npm install node-sass --save-dev
+
+In Sass folder add main.scss file and move all styles here
+In package.json add:    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+and run in terminall npm run compile:sass
+
