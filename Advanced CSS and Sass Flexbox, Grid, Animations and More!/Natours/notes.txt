@@ -9,3 +9,5 @@ and run in terminall npm run compile:sass
 In other terminall :
 npm install live-server -g
 start: live-server
+
+site for icons: https://istanbulkonvention.ch/assets/fonts/linea/_full/_basic_elaboration/_ICONFONT/icons-reference.html
